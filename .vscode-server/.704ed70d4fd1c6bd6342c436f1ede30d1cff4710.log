@@ -1,0 +1,105 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:34753 (IPv4)
+Extension host agent listening on 34753
+
+[11:55:06] 
+
+
+
+
+[11:55:06] Extension host agent started.
+[11:55:06] [127.0.0.1][8f78e69a][ManagementConnection] New connection established.
+[11:55:06] [127.0.0.1][bebc159c][ExtensionHostConnection] New connection established.
+[11:55:06] [127.0.0.1][bebc159c][ExtensionHostConnection] <1188> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[11:55:12] [127.0.0.1][8f78e69a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[11:55:12] [127.0.0.1][bebc159c][ExtensionHostConnection] <1188> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[11:55:12] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[11:55:12] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[11:55:14] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[11:55:14] Cancelling previous shutdown timeout
+[11:55:14] [127.0.0.1][78ab7aa5][ManagementConnection] New connection established.
+[11:55:14] [127.0.0.1][abee3215][ExtensionHostConnection] New connection established.
+[11:55:14] [127.0.0.1][abee3215][ExtensionHostConnection] <1308> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[12:00:14] New EH opened, aborting shutdown
+[12:40:12] [127.0.0.1][abee3215][ExtensionHostConnection] The client has reconnected.
+[12:40:13] [127.0.0.1][78ab7aa5][ManagementConnection] The client has reconnected.
+[12:40:15] [127.0.0.1][abee3215][ExtensionHostConnection] The client has reconnected.
+[12:40:36] [127.0.0.1][78ab7aa5][ManagementConnection] The client has reconnected.
+[12:40:48] [127.0.0.1][78ab7aa5][ManagementConnection] The client has reconnected.
+[12:40:52] [127.0.0.1][abee3215][ExtensionHostConnection] The client has reconnected.
+[12:41:13] [127.0.0.1][78ab7aa5][ManagementConnection] The client has reconnected.
+[12:41:19] [127.0.0.1][abee3215][ExtensionHostConnection] The client has reconnected.
+[12:46:38] [127.0.0.1][78ab7aa5][ManagementConnection] The client has reconnected.
+[12:48:37] [127.0.0.1][78ab7aa5][ManagementConnection] The client has reconnected.
+[12:49:03] [127.0.0.1][abee3215][ExtensionHostConnection] The client has reconnected.

@@ -1,0 +1,22 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-e0f17658-7f00-4dad-afd8-6cf16e626fa4
+Extension host agent listening on /tmp/code-e0f17658-7f00-4dad-afd8-6cf16e626fa4
+
+[02:12:14] 
+
+
+
+
+[02:12:14] Extension host agent started.
+[02:12:14] [<unknown>][7f66b61b][ManagementConnection] New connection established.
+[02:12:14] [<unknown>][7d1dbe96][ExtensionHostConnection] New connection established.
+[02:12:14] [<unknown>][7d1dbe96][ExtensionHostConnection] <13574> Launched Extension Host Process.
+[02:12:30] Downloaded extension to file:///home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/618d23a1-56e6-4c37-9b69-bdaa05a1b725
+New EH opened, aborting shutdown
+[02:17:14] New EH opened, aborting shutdown

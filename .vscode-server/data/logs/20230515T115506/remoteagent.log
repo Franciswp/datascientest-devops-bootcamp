@@ -1,0 +1,30 @@
+2023-05-15 11:55:06.398 [info] 
+
+
+
+
+2023-05-15 11:55:06.439 [info] Extension host agent started.
+2023-05-15 11:55:06.591 [info] [127.0.0.1][8f78e69a][ManagementConnection] New connection established.
+2023-05-15 11:55:06.733 [info] [127.0.0.1][bebc159c][ExtensionHostConnection] New connection established.
+2023-05-15 11:55:06.749 [info] [127.0.0.1][bebc159c][ExtensionHostConnection] <1188> Launched Extension Host Process.
+2023-05-15 11:55:12.451 [info] [127.0.0.1][8f78e69a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-15 11:55:12.467 [info] [127.0.0.1][bebc159c][ExtensionHostConnection] <1188> Extension Host Process exited with code: 0, signal: null.
+2023-05-15 11:55:12.467 [info] Cancelling previous shutdown timeout
+2023-05-15 11:55:12.467 [info] Last EH closed, waiting before shutting down
+2023-05-15 11:55:14.253 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-05-15 11:55:14.253 [info] Cancelling previous shutdown timeout
+2023-05-15 11:55:14.392 [info] [127.0.0.1][78ab7aa5][ManagementConnection] New connection established.
+2023-05-15 11:55:14.492 [info] [127.0.0.1][abee3215][ExtensionHostConnection] New connection established.
+2023-05-15 11:55:14.502 [info] [127.0.0.1][abee3215][ExtensionHostConnection] <1308> Launched Extension Host Process.
+2023-05-15 12:00:14.254 [info] New EH opened, aborting shutdown
+2023-05-15 12:40:12.574 [info] [127.0.0.1][abee3215][ExtensionHostConnection] The client has reconnected.
+2023-05-15 12:40:13.976 [info] [127.0.0.1][78ab7aa5][ManagementConnection] The client has reconnected.
+2023-05-15 12:40:15.910 [info] [127.0.0.1][abee3215][ExtensionHostConnection] The client has reconnected.
+2023-05-15 12:40:36.999 [info] [127.0.0.1][78ab7aa5][ManagementConnection] The client has reconnected.
+2023-05-15 12:40:48.374 [info] [127.0.0.1][78ab7aa5][ManagementConnection] The client has reconnected.
+2023-05-15 12:40:52.244 [info] [127.0.0.1][abee3215][ExtensionHostConnection] The client has reconnected.
+2023-05-15 12:41:13.359 [info] [127.0.0.1][78ab7aa5][ManagementConnection] The client has reconnected.
+2023-05-15 12:41:19.164 [info] [127.0.0.1][abee3215][ExtensionHostConnection] The client has reconnected.
+2023-05-15 12:46:38.478 [info] [127.0.0.1][78ab7aa5][ManagementConnection] The client has reconnected.
+2023-05-15 12:48:37.589 [info] [127.0.0.1][78ab7aa5][ManagementConnection] The client has reconnected.
+2023-05-15 12:49:03.552 [info] [127.0.0.1][abee3215][ExtensionHostConnection] The client has reconnected.
