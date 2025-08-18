@@ -581,3 +581,139 @@ git remote remove origin https://github.com/Franciswp/devops_bootcamp_2025.git
 git remote -v
 git remote remove origin devops_bootcamp_2025.git 
 exit
+git status
+git add .
+git status
+git commit -m"New VS Code updates"
+git remote -v
+git remote origin .
+git remote origin
+git remote origin https://github.com/Franciswp/devops_bootcamp_2025.git 
+git remote origin Franciswp/devops_bootcamp_2025.git 
+git remote origin devops_bootcamp_2025.git 
+git remote  /Franciswp/devops_bootcamp_2025.git 
+git remote remove origin https://github.com/Franciswp/devops_bootcamp_2025.git 
+git remote remove  https://github.com/Franciswp/devops_bootcamp_2025.git 
+git remote remove Franciswp/devops_bootcamp_2025.git 
+git remote remove origin --all
+git remote remove origin .
+git remote remove https://github.com/IUCampus/devops_bootcamp_2025.git 
+git remote remove IUCampus/devops_bootcamp_2025.git 
+git remote -v
+git remote remove origin
+git remote -v
+git remote set-url origin https://github.com/IUCampus/devops_bootcamp_2025.git
+git push --set-upstream  origin https://github.com/IUCampus/devops_bootcamp_2025.git
+git push --set-upstream  origin main
+git push -u upstream main --force
+git clear
+clear
+git remote add origin https://github.com/IUCampus/devops_bootcamp_2025.git
+git branch -M main
+git push -u origin main
+git remote -v
+git remote remove origin
+git remote remove upstream
+git remote -v
+clear
+git remote -v
+git remote add origin https://github.com/Franciswp/datascientest-devops-bootcamp.git
+git branch -M main
+git push -u origin main
+git status
+git add .
+git status
+git restore .
+git status
+git restore 
+git restore .
+git status
+git restore HEAD
+it reset HEAD
+git reset HEAD
+clear
+git status
+clear
+git status
+git add .gitignore
+git commit -m"added git ignore"
+git restore
+git restore .gitignore
+git status
+git add .gitignore
+git status
+git prune
+git restore --staged path/to/file
+# or (older Git)
+git restore --staged .
+# or
+git reset HEAD .
+clear
+git status
+git config --global core.compression 9
+git remote -v
+git add .
+git commit -m"modfication vscode"
+git commit -m"modfication vscode"git config --global user.name
+git commit -m "modfication vscode"
+git push
+git push --set-upstream origin main
+clear
+ls
+ls -a
+rm -r ./.git
+rm -r .git
+gitconfig
+git config
+clear
+git remote -v
+git init
+git remote -v
+git remote add origin https://github.com/Franciswp/datascientest-devops-bootcamp.git
+git branch -M main
+git push -u origin main
+git prune
+git push -u origin main
+git branch
+git branch -m  main
+git branch -m master main
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+git remote set-url origin https://github.com/Franciswp/datascientest-devops-bootcamp.git
+# Check your current branch and rename if necessary
+git branch -m master main
+# Stage and commit your changes
+git add .
+git commit -m "Initial commit"
+# Push to the remote repository
+git push -u origin main
+exit
+sudo nano /etc/php/7.4/fpm/php.ini
+sudo apt-get install nginx mariadb-server php php-fpm php-curl php-mysql php-gd php-mbstring php-xml php-imagick php-zip php-xmlrpc -y
+php -v
+sudo nano /etc/php/7.4/fpm/php.ini
+sudo apt uninstall nginx mariadb-server php php-fpm php-curl php-mysql php-gd php-mbstring php-xml php-imagick php-zip php-xmlrpc -y
+sudo cp /etc/php/7.4/fpm/php.ini /etc/php/7.4/fpm/php.ini.bak
+dpkg -S /etc/php/7.4/fpm/php.ini
+# note the package name printed (e.g. php7.4-fpm or php7.4-common)
+pkg=$(dpkg -S /etc/php/7.4/fpm/php.ini | cut -d: -f1)
+sudo apt-get update
+# restore missing conffiles from package
+sudo apt-get -o Dpkg::Options::="--force-confmiss" --reinstall install "$pkg"
+sudo systemctl restart php7.4-fpm
+sudo nano /etc/php/7.4/fpm/php.ini
+sudo mariadb -u root -p
+clear
+cd /var/www/html
+sudo wget https://wordpress.org/latest.tar.gz
+sudo tar -zxvf latest.tar.gz
+sudo mv /var/www/html/wordpress/wp-config-sample.php /var/www/html/wordpress/wp-config.php
+sudo nano /var/www/html/wordpress/wp-config.php
+sudo chown -R www-data:www-data /var/www/html/wordpress
+sudo chmod -R 755 /var/www/html/wordpress
+sudo apt-get install nginx mariadb-server php php-fpm php-curl php-mysql php-gd php-mbstring php-xml php-imagick php-zip php-xmlrpc -y
+php -v
+maridb --version
+mariadb --version
+sudo nano /etc/php/7.4/fpm/php.ini
