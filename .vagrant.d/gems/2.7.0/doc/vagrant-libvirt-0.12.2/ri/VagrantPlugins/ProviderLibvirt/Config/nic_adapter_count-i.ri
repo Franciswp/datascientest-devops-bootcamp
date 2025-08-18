@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"nic_adapter_count:ETI">VagrantPlugins::ProviderLibvirt::Config#nic_adapter_count;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"5Sets the max number of NICs that can be created ;TI"@Default set to 8. Don't change the default unless you know ;TI"what are doing;T:
+@fileI""lib/vagrant-libvirt/config.rb;T:0@omit_headings_from_table_of_contents_below0F@I",VagrantPlugins::ProviderLibvirt::Config;TcRDoc::NormalClass0

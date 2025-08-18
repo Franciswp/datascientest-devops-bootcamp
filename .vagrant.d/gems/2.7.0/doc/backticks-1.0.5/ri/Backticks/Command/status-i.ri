@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"status:ETI"Backticks::Command#status;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"Z@return [nil,Process::Status] result of command if it has ended; nil if still running;T:
+@fileI"lib/backticks/command.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Backticks::Command;TcRDoc::NormalClass0

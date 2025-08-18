@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"uri:ETI"0VagrantPlugins::ProviderLibvirt::Config#uri;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"manually specify URI ;TI"2will supersede most other options if provided;T:
+@fileI""lib/vagrant-libvirt/config.rb;T:0@omit_headings_from_table_of_contents_below0F@I",VagrantPlugins::ProviderLibvirt::Config;TcRDoc::NormalClass0
