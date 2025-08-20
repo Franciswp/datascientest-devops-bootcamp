@@ -5,18 +5,28 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-e0f17658-7f00-4dad-afd8-6cf16e626fa4
-Extension host agent listening on /tmp/code-e0f17658-7f00-4dad-afd8-6cf16e626fa4
+Server bound to /tmp/code-63c16f46-cc43-4f84-8349-125e7f7e429f
+Extension host agent listening on /tmp/code-63c16f46-cc43-4f84-8349-125e7f7e429f
 
-[02:12:14] 
-
-
+[08:36:20] 
 
 
-[02:12:14] Extension host agent started.
-[02:12:14] [<unknown>][7f66b61b][ManagementConnection] New connection established.
-[02:12:14] [<unknown>][7d1dbe96][ExtensionHostConnection] New connection established.
-[02:12:14] [<unknown>][7d1dbe96][ExtensionHostConnection] <13574> Launched Extension Host Process.
-[02:12:30] Downloaded extension to file:///home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/618d23a1-56e6-4c37-9b69-bdaa05a1b725
+
+
+[08:36:20] Extension host agent started.
+[08:36:20] [<unknown>][bcb6f863][ExtensionHostConnection] New connection established.
+[08:36:20] [<unknown>][82d419ca][ManagementConnection] New connection established.
+[08:36:20] [<unknown>][bcb6f863][ExtensionHostConnection] <1150> Launched Extension Host Process.
+[08:36:35] Downloaded extension to file:///home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/3370e238-8f90-4064-9a59-50a11f9f1446
+[08:36:35] [<unknown>][82d419ca][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:36:36] [<unknown>][bcb6f863][ExtensionHostConnection] <1150> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[08:36:36] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[08:36:36] Last EH closed, waiting before shutting down
+[08:36:41] [<unknown>][902e8e25][ExtensionHostConnection] New connection established.
+[08:36:41] [<unknown>][902e8e25][ExtensionHostConnection] <1201> Launched Extension Host Process.
+[08:36:41] [<unknown>][73f51a07][ManagementConnection] New connection established.
+[08:36:55] Downloaded extension to file:///home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/9bf2aca8-b6f2-4bce-8d9c-776490f48e4c
 New EH opened, aborting shutdown
-[02:17:14] New EH opened, aborting shutdown
+[08:41:36] New EH opened, aborting shutdown

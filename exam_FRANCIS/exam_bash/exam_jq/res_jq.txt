@@ -1,0 +1,30 @@
+1. Display the number of attributes per document as well as the name attribute. How many attribute do they have ? Display only the first 12 lines with the head command (notebook #2).
+Command: jq '. | {attributes_count: (.attributes | length), name: .name}' people.json | head -n 12
+Answer: 12 lines with attributes count and name
+
+--------------------------------------
+
+2. How many unknown values are there for the birth_year attribute ? Use the tail command to isolate the response.
+Command: jq '[.[] | select(.birth_year == "unknown")] | length' people.json | tail -n 1
+Answer: Number of 'unknown' values for birth_year
+
+--------------------------------------
+
+3. Display each character's creation date and name. The creation date must be of this form: the year, the month and the day. Display only the first 10 lines (No response expected).
+Command: jq '.[] | {creation_date: (.created | split("T")[0]), name: .name}' people.json | head -n 10
+Answer: 10 lines with creation date and name
+
+--------------------------------------
+
+4. Some characters are born at the same time. Find all the pairs of ids (2 ids) of the characters born at the same time. Display only the first 10 pairs.
+Command: jq '[.[] | select(.birth_year != "unknown") | {id: .id, birth_year: .birth_year}] | group_by(.birth_year) | map(select(length > 1)) | map({ids: map(.id)}) | .[] | {pair: .ids}' people.json | head -n 10
+Answer: 10 pairs of ids of characters born at the same time
+
+--------------------------------------
+
+5. Return the number of the first movie (of the list) each character was seen in followed by the character's name. Display only the first 10 lines (No response expected).
+Command: jq '.[] | {first_movie: (.films[0] | split("/") | .[-1]), name: .name}' people.json | head -n 10
+Answer: 10 lines with first movie number and character's name
+
+--------------------------------------
+

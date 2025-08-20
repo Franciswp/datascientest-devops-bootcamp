@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+.env
+dist
+coverage
+build
+.vscode
+.idea
+*.log
+npm-debug.log*
+.vscode-server
+*.swp

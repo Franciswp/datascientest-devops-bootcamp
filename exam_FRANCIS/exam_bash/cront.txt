@@ -1,0 +1,2 @@
+Cron Job
+0 7-21 * march,june, november mon-fri ./exam.sh

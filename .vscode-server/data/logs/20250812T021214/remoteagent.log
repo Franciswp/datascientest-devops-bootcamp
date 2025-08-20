@@ -9,3 +9,4 @@
 2025-08-12 02:12:14.819 [info] [<unknown>][7d1dbe96][ExtensionHostConnection] <13574> Launched Extension Host Process.
 2025-08-12 02:12:30.827 [info] Downloaded extension to file:///home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/618d23a1-56e6-4c37-9b69-bdaa05a1b725
 2025-08-12 02:17:14.412 [info] New EH opened, aborting shutdown
+2025-08-12 03:03:08.423 [info] [<unknown>][7f66b61b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
