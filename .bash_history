@@ -395,3 +395,113 @@ chechout /home/ubuntu
 chechout cd
 chechout ~
 git branch 
+ssh-keygen -t rsa -b ed25519 -C "chigozie-cyriacus.francis@iu-study.org"
+ssh-keygen -t rsa -b 4096 -C "chigozie-cyriacus.francis@iu-study.orgg"
+ssh-keygen -t rsa -b 4096 -C "chigozie-cyriacus.francis@iu-study.org"
+git status
+git add .
+git commit -m "Added private key"
+git push
+cd ssh
+ls -a
+cat id_rsa.pub
+cd ssh
+cd .ssh
+ls -a
+cat id_rsa.pub
+cat private.sh.pub
+git clone https://github.com/Franciswp/github_actions.git
+cd github-actions
+mkdir .github/workflows
+cd .github/workflows
+cd github_actions/
+mkdir .github/workflows
+mkdir github/workflows
+mkdir .github
+cd .github/
+cd ..
+cd .github/workflows
+ls
+ls -a
+cd .github
+mkdir workflows
+ls
+cd workflows/
+touch my_first_workflow.yaml
+nano my_first_workflow.yaml 
+git status
+git add .
+git status
+git commit -m"my first actions"
+git push
+nano my_first_workflow.yaml 
+git status
+git add .
+git commit -m"modified first actions"
+git push
+ls
+touch multiple_shells.yaml
+nano multiple_shells.yaml 
+git status
+git add .
+git commit -m "Created Multiple work flows"
+git push
+nano my_first_workflow.yaml 
+git status
+git add .
+git commit -m"modified first actions"
+git push
+nano multiple_shells.yaml 
+nano my_first_workflow.yaml 
+git add .
+git commit -m"my first actions"
+git push
+git status
+git push
+nano my_first_workflow.yaml 
+git status
+git add .
+git commit -m"my first actions"
+git push
+git status
+git push
+ls
+cd ..
+ls
+cd ..
+ls
+ls -a
+cd .github
+ls
+cd workflows/
+ls
+git status
+git add .
+git commit -m"add ssh function"
+git status
+git add ../../.ssh
+git status
+git commit -m"Added ssh function"
+git push
+git sestore
+git sestore .ssh/
+ls
+cd
+ls
+git status
+git add .ssh/private.sh .ssh/private.sh.pub github_actions
+git commit -m " all new commits"
+git push
+git status
+git reset
+git status
+git add github_actions
+git status
+git commit -m"amendment"
+clear
+cd github_actions/.github
+ls
+ls -a
+cd workflows/
+ls
+exit
