@@ -1,0 +1,314 @@
+books with >400 pages: 157
+books with >400 pages and published: 155
+Database(MongoClient(host=['127.0.0.1:27017'], document_class=dict, tz_aware=False, connect=True, authsource='admin'), 'sample')
+['books']
+{'_id': 2,
+ 'authors': ['W. Frank Ableson', 'Robi Sen'],
+ 'categories': ['Java'],
+ 'isbn': '1935182722',
+ 'longDescription': 'When it comes to mobile apps, Android can do almost '
+                    'anything   and with this book, so can you! Android runs '
+                    'on mobile devices ranging from smart phones to tablets to '
+                    "countless special-purpose gadgets. It's the broadest "
+                    'mobile platform available.    Android in Action, Second '
+                    'Edition is a comprehensive tutorial for Android '
+                    'developers. Taking you far beyond "Hello Android," this '
+                    "fast-paced book puts you in the driver's seat as you "
+                    'learn important architectural concepts and implementation '
+                    "strategies. You'll master the SDK, build WebKit apps "
+                    'using HTML 5, and even learn to extend or replace '
+                    "Android's built-in features by building useful and "
+                    'intriguing examples. ',
+ 'pageCount': 592,
+ 'publishedDate': datetime.datetime(2011, 1, 14, 8, 0),
+ 'shortDescription': 'Android in Action, Second Edition is a comprehensive '
+                     'tutorial for Android developers. Taking you far beyond '
+                     '"Hello Android," this fast-paced book puts you in the '
+                     "driver's seat as you learn important architectural "
+                     "concepts and implementation strategies. You'll master "
+                     'the SDK, build WebKit apps using HTML 5, and even learn '
+                     "to extend or replace Android's built-in features by "
+                     'building useful and intriguing examples. ',
+ 'status': 'PUBLISH',
+ 'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson2.jpg',
+ 'title': 'Android in Action, Second Edition'}
+431
+books with >400 pages: 157
+books with >400 pages and published: 155
+books with >400 pages: 157
+books with >400 pages and published: 155
+books with 'Android' in description: 4
+books with >400 pages: 157
+books with >400 pages and published: 155
+books with 'Android' in description: 4
+distinct categories at index 0: ['Programming', 'Java', 'Microsoft .NET', 'Business', 'java', 'Python', 'XML', 'internet', 'In Action', 'Software Engineering', 'Computer Graphics', 'Web Development', 'PHP', 'Object-Oriented Programming', 'Microsoft/.NET', 'PowerBuilder', 'Miscellaneous', 'Open Source', 'SOA', 'Internet', 'Client-Server', 'Algorithmic Art', 'Mobile Technology', 'Next Generation Databases', 'Perl', 'Theory', 'Networking', 'Object-Technology Programming', 'Microsoft']
+distinct categories at index 1: ['Internet', '.NET', '', 'Python', 'Open Source', 'Business', 'Java', 'Software Development', 'P', 'Networking', 'Theory', 'Computer Graphics', 'Perl', 'Software Engineering', 'S', 'Client-Server', 'Mobile']
+books with >400 pages: 157
+books with >400 pages and published: 155
+books with 'Android' in description: 4
+distinct categories at index 0: ['Programming', 'Java', 'Microsoft .NET', 'Business', 'java', 'Python', 'XML', 'internet', 'In Action', 'Software Engineering', 'Computer Graphics', 'Web Development', 'PHP', 'Object-Oriented Programming', 'Microsoft/.NET', 'PowerBuilder', 'Miscellaneous', 'Open Source', 'SOA', 'Internet', 'Client-Server', 'Mobile Technology', 'Object-Technology Programming', 'Next Generation Databases', 'Perl', 'Theory', 'Networking', 'Algorithmic Art', 'Microsoft']
+distinct categories at index 1: ['Internet', '.NET', '', 'Python', 'Open Source', 'Business', 'Java', 'Software Development', 'P', 'Networking', 'Theory', 'Computer Graphics', 'Perl', 'Software Engineering', 'S', 'Client-Server', 'Mobile']
+books with 'Python' in longDescription: 11
+books with 'Java' in longDescription: 113
+books with 'C++' in longDescription: 12
+books with 'Scala' in longDescription: 18
+books with >400 pages: 157
+books with >400 pages and published: 155
+books with 'Android' in description: 4
+distinct categories at index 0: ['Programming', 'Java', 'Microsoft .NET', 'Business', 'java', 'Python', 'XML', 'internet', 'In Action', 'Software Engineering', 'Computer Graphics', 'Web Development', 'PHP', 'Object-Oriented Programming', 'Microsoft/.NET', 'PowerBuilder', 'Miscellaneous', 'Open Source', 'SOA', 'Internet', 'Client-Server', 'Algorithmic Art', 'Mobile Technology', 'Next Generation Databases', 'Perl', 'Theory', 'Networking', 'Object-Technology Programming', 'Microsoft']
+distinct categories at index 1: ['.NET', 'Internet', '', 'Python', 'Open Source', 'Java', 'Software Development', 'Business', 'Perl', 'Computer Graphics', 'P', 'Networking', 'Software Engineering', 'S', 'Theory', 'Mobile', 'Client-Server']
+books with 'Python' in longDescription: 11
+books with 'Java' in longDescription: 113
+books with 'C++' in longDescription: 12
+books with 'Scala' in longDescription: 18
+
+Category statistics (max, min, avg pages):
+- : count=2, max=368, min=200, avg=284.0
+- .NET: count=1, max=925, min=925, avg=925.0
+- Algorithmic Art: count=1, max=0, min=0, avg=0.0
+- Business: count=12, max=696, min=180, avg=404.17
+- Client Server: count=1, max=368, min=368, avg=368.0
+- Client-Server: count=11, max=1101, min=220, avg=516.0
+- Computer Graph: count=1, max=400, min=400, avg=400.0
+- Computer Graphics: count=6, max=840, min=328, avg=520.33
+- In Action: count=1, max=0, min=0, avg=0.0
+- Internet: count=41, max=912, min=0, avg=441.24
+- Java: count=96, max=1088, min=0, avg=412.22
+- Microsoft: count=8, max=925, min=344, avg=572.38
+- Microsoft .NET: count=34, max=848, min=0, avg=437.03
+- Microsoft/.NET: count=1, max=0, min=0, avg=0.0
+- Miscella: count=1, max=0, min=0, avg=0.0
+- Miscellaneous: count=2, max=1096, min=316, avg=706.0
+- Mobile: count=1, max=416, min=416, avg=416.0
+- Mobile Technology: count=6, max=504, min=0, avg=296.5
+- Networking: count=7, max=591, min=0, avg=366.43
+- Next Generation Databases: count=1, max=0, min=0, avg=0.0
+- Object-Oriented Programming: count=4, max=512, min=350, avg=408.5
+- Object-Technology Programming: count=1, max=200, min=200, avg=200.0
+- Open Source: count=2, max=532, min=416, avg=474.0
+- P: count=1, max=512, min=512, avg=512.0
+- PHP: count=1, max=552, min=552, avg=552.0
+- Perl: count=6, max=504, min=304, avg=385.33
+- PowerBuilder: count=7, max=550, min=362, avg=433.71
+- Programming: count=12, max=570, min=0, avg=362.17
+- Python: count=6, max=688, min=350, avg=482.33
+- S: count=1, max=350, min=350, avg=350.0
+- SOA: count=1, max=250, min=250, avg=250.0
+- Software Development: count=1, max=600, min=600, avg=600.0
+- Software Engineering: count=16, max=544, min=0, avg=287.75
+- Theory: count=7, max=591, min=280, avg=420.43
+- Web Development: count=17, max=688, min=300, avg=441.47
+- XML: count=4, max=680, min=304, avg=482.0
+- internet: count=1, max=400, min=400, avg=400.0
+- java: count=1, max=0, min=0, avg=0.0
+
+Books published after 2009 (first 20) with extracted date parts:
+- The Quick Python Book, Second Edition: 2010-01-01
+- DSLs in Boo: Domain-Specific Languages in .NET: 2010-01-01
+- Brownfield Application Development in .NET: 2010-04-16
+- jQuery in Action, Second Edition: 2010-06-01
+- ASP.NET MVC 2 in Action: 2010-06-01
+- PowerShell in Practice: 2010-06-08
+- JUnit in Action, Second Edition: 2010-07-01
+- Lucene in Action, Second Edition: 2010-07-09
+- iPhone and iPad in Action: 2010-08-01
+- Event Processing in Action: 2010-08-15
+- Spring Dynamic Modules in Action: 2010-09-04
+- Silverlight 4 in Action, Revised Edition: 2010-10-04
+- Flex on Java: 2010-10-15
+- Azure in Action: 2010-10-22
+- Flex 4 in Action: 2010-11-15
+- Erlang and OTP in Action: 2010-11-16
+- iText in Action, Second Edition: 2010-11-22
+- The Cloud at Your Service: 2010-11-22
+- DSLs in Action: 2010-12-01
+- Hadoop in Action: 2010-12-01
+
+First 20 books (year>2009) with author_1..author_n created from authors array:
+
+- The Quick Python Book, Second Edition | published: 2010-01-01 08:00:00 | authors_count: 1
+    author_1: Naomi R. Ceder
+    author_2 (out-of-bounds example): None
+
+- DSLs in Boo: Domain-Specific Languages in .NET | published: 2010-01-01 08:00:00 | authors_count: 1
+    author_1: Oren Eini writing as Ayende Rahien
+    author_2 (out-of-bounds example): None
+
+- Brownfield Application Development in .NET | published: 2010-04-16 07:00:00 | authors_count: 2
+    author_1: Kyle Baley
+    author_2: Donald Belcham
+    author_3 (out-of-bounds example): None
+
+- jQuery in Action, Second Edition | published: 2010-06-01 07:00:00 | authors_count: 2
+    author_1: Bear Bibeault
+    author_2: Yehuda Katz
+    author_3 (out-of-bounds example): None
+
+- ASP.NET MVC 2 in Action | published: 2010-06-01 07:00:00 | authors_count: 6
+    author_1: Jeffrey Palermo
+    author_2: Ben Scheirman
+    author_3: Jimmy Bogard
+    author_4: Eric Hexter
+    author_5: 
+    author_6: Matthew Hinze
+    author_7 (out-of-bounds example): None
+
+- PowerShell in Practice | published: 2010-06-08 07:00:00 | authors_count: 1
+    author_1: Richard Siddaway
+    author_2 (out-of-bounds example): None
+
+- JUnit in Action, Second Edition | published: 2010-07-01 07:00:00 | authors_count: 5
+    author_1: Petar Tahchiev
+    author_2: Felipe Leme
+    author_3: Vincent Massol
+    author_4: 
+    author_5: Gary Gregory
+    author_6 (out-of-bounds example): None
+
+- Lucene in Action, Second Edition | published: 2010-07-09 07:00:00 | authors_count: 4
+    author_1: Erik Hatcher
+    author_2: Otis Gospodnetic
+    author_3: 
+    author_4: Michael McCandless
+    author_5 (out-of-bounds example): None
+
+- iPhone and iPad in Action | published: 2010-08-01 07:00:00 | authors_count: 4
+    author_1: Brandon Trebitowski
+    author_2: Christopher Allen
+    author_3: 
+    author_4: Shannon Appelcline
+    author_5 (out-of-bounds example): None
+
+- Event Processing in Action | published: 2010-08-15 07:00:00 | authors_count: 0
+    author_1 (out-of-bounds example): None
+
+- Spring Dynamic Modules in Action | published: 2010-09-04 07:00:00 | authors_count: 4
+    author_1: Arnaud Cogoluegnes
+    author_2: Thierry Templier
+    author_3: 
+    author_4: Andy Piper
+    author_5 (out-of-bounds example): None
+
+- Silverlight 4 in Action, Revised Edition | published: 2010-10-04 07:00:00 | authors_count: 1
+    author_1: Pete Brown
+    author_2 (out-of-bounds example): None
+
+- Flex on Java | published: 2010-10-15 07:00:00 | authors_count: 2
+    author_1: Bernerd Allmon
+    author_2: Jeremy Anderson
+    author_3 (out-of-bounds example): None
+
+- Azure in Action | published: 2010-10-22 07:00:00 | authors_count: 2
+    author_1: Chris Hay
+    author_2: Brian H. Prince
+    author_3 (out-of-bounds example): None
+
+- Flex 4 in Action | published: 2010-11-15 08:00:00 | authors_count: 4
+    author_1: Tariq Ahmed
+    author_2: Dan Orlando
+    author_3: John C. Bland II
+    author_4: Joel Hooks
+    author_5 (out-of-bounds example): None
+
+- Erlang and OTP in Action | published: 2010-11-16 08:00:00 | authors_count: 4
+    author_1: Martin Logan
+    author_2: Eric Merritt
+    author_3: 
+    author_4: Richard Carlsson
+    author_5 (out-of-bounds example): None
+
+- iText in Action, Second Edition | published: 2010-11-22 08:00:00 | authors_count: 1
+    author_1: Bruno Lowagie
+    author_2 (out-of-bounds example): None
+
+- The Cloud at Your Service | published: 2010-11-22 08:00:00 | authors_count: 2
+    author_1: Jothy Rosenberg
+    author_2: Arthur Mateos
+    author_3 (out-of-bounds example): None
+
+- DSLs in Action | published: 2010-12-01 08:00:00 | authors_count: 0
+    author_1 (out-of-bounds example): None
+
+- Hadoop in Action | published: 2010-12-01 08:00:00 | authors_count: 1
+    author_1: Chuck Lam
+    author_2 (out-of-bounds example): None
+
+Top 10 first authors by number of publications:
+Unknown: 37
+Vikram Goyal: 12
+Don Jones: 6
+Craig Walls: 4
+Christian Bauer: 4
+Erik Hatcher: 3
+Jeffrey Palermo: 3
+Ted Neward: 3
+Jon Skeet: 3
+David A. Black: 3
+
+Top 10 first authors by number of publications:
+Unknown: 37
+Vikram Goyal: 12
+Don Jones: 6
+Craig Walls: 4
+Christian Bauer: 4
+Erik Hatcher: 3
+Jeffrey Palermo: 3
+Ted Neward: 3
+Jon Skeet: 3
+David A. Black: 3
+
+Distribution of number of authors (authors_count -> number of books):
+0 authors: 37
+1 authors: 206
+2 authors: 105
+3 authors: 9
+4 authors: 47
+5 authors: 16
+6 authors: 6
+7 authors: 2
+8 authors: 3
+
+Top 10 first authors by number of publications:
+Unknown: 37
+Vikram Goyal: 12
+Don Jones: 6
+Craig Walls: 4
+Christian Bauer: 4
+Erik Hatcher: 3
+Jeffrey Palermo: 3
+Ted Neward: 3
+Jon Skeet: 3
+David A. Black: 3
+
+Distribution of number of authors (authors_count -> number of books):
+0 authors: 37
+1 authors: 206
+2 authors: 105
+3 authors: 9
+4 authors: 47
+5 authors: 16
+6 authors: 6
+7 authors: 2
+8 authors: 3
+
+Top 20 author occurrences by author + index (author at index i):
+index 0 | Vikram Goyal: 12
+index 0 | Don Jones: 6
+index 1 | Yehuda Katz: 5
+index 0 | Christian Bauer: 4
+index 0 | Craig Walls: 4
+index 1 | Gavin King: 4
+index 2 | Greg Low: 3
+index 0 | Jeffrey Palermo: 3
+index 0 | Tim Hatton: 3
+index 0 | W. Frank Ableson: 3
+index 0 | Bear Bibeault: 3
+index 0 | Richard Siddaway: 3
+index 0 | Dave Crane: 3
+index 0 | Erik Hatcher: 3
+index 0 | David A. Black: 3
+index 0 | Jon Skeet: 3
+index 0 | Ted Neward: 3
+index 0 | Glen Smith: 2
+index 0 | Peter Armstrong: 2
+index 0 | Bruce Payette: 2

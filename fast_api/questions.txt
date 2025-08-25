@@ -1,0 +1,8 @@
+                            question    subject  ...       responseD remark
+0        What does No-SQL stand for?  Databases  ...             NaN    NaN
+1  Cassandra and HBase are databases  Databases  ...  graph-oriented    NaN
+2  MongoDB and CouchDB are databases  Databases  ...  graph-oriented    NaN
+3   OrientDB and Neo4J are databases  Databases  ...  graph-oriented    NaN
+4   To index textual data, I can use  Databases  ...             NaN    NaN
+
+[5 rows x 9 columns]
