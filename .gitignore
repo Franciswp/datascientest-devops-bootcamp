@@ -9,4 +9,7 @@ build
 *.log
 npm-debug.log*
 .vscode-server
-*.swp
+*.swpsample_training/journal/
+sample_training/diagnostic.data/
+sample_training/.mongodb/
+sample_training/.bash_history
