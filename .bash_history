@@ -717,6 +717,7 @@ php -v
 maridb --version
 mariadb --version
 sudo nano /etc/php/7.4/fpm/php.ini
+<<<<<<< HEAD
 git status
 git remote -v
 git add .bash_history
@@ -1034,3 +1035,5 @@ sudo nginx -s reload
 curl -i http://laboratory.dev-datascientest.ip-ddns.com
 curl -i http://lab.dev-datascientest.ip-ddns.com
 curl -i http://laboratory.dev-datascientest.ip-ddns.com
+=======
+>>>>>>> fb61bd076ac06f6f1a8933552073e9a877a04310
