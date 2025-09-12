@@ -717,3 +717,320 @@ php -v
 maridb --version
 mariadb --version
 sudo nano /etc/php/7.4/fpm/php.ini
+git status
+git remote -v
+git add .bash_history
+git status
+git commit -m " some changes"
+git push
+git commit --amend --reset-author
+git config --global user.name "Francis Chigozie"
+git config --global user.email cyriacus74074@gmail.com
+clear
+exit
+sudo apt update && sudo apt upgrade -y # we update the packages and the operating system
+sudo apt install nginx -y # we install nginx and automatically validate with the -y flag
+sudo systemctl enable nginx # start the service on every system reboot
+sudo systemctl start nginx # start the service now
+sudo systemctl status nginx # check the status of the nginx service
+cd /etc/nginx #move to the nginx directory
+ls -larth #display file and directory list with all information
+cat nginx.conf
+curl -i http://laboratory.dev-datascientest.cloudns.net/home
+curl -i http://laboratory.dev-datascientest.cloudns.net/apropos
+cd /var/www/
+ls
+cd datascientest_website/
+ls
+cat apropos.html
+nano apropos.html
+cd ..
+cd
+ls
+curl -i http://laboratory.dev-datascientest.cloudns.net/apropos
+php -v
+sudo nano /etc/php/7.4/fpm/php.ini
+sudo mariadb -u root -p
+cd /var/www/html
+sudo wget https://wordpress.org/latest.tar.gz
+sudo tar -zxvf latest.tar.gz
+sudo mv /var/www/html/wordpress/wp-config-sample.php /var/www/html/wordpress/wp-config.php
+sudo nano /var/www/html/wordpress/wp-config.php
+sudo chown -R www-data:www-data /var/www/html/wordpress
+sudo chmod -R 755 /var/www/html/wordpress
+sudo rm -f /etc/nginx/nginx.conf #deletes from the nginx.conf file created by us
+sudo mv /etc/nginx/nginx.conf_backup nginx.conf # rename /etc/nginx/nginx.conf_backup to nginx.conf
+sudo nano /etc/nginx/conf.d/wordpress.conf # create new file for virtual host configuration
+sudo nginx -t
+cd
+sudo nginx -t
+sudo systemctl restart nginx
+sudo systemctl restart php7.4-fpm
+systemctl status nginx
+clear
+sudo nginx -t
+ls -l /etc/nginx/nginx.conf
+sudo apt-get install --reinstall nginx  # For Debian/Ubuntu
+sudo nano /etc/nginx/nginx.conf
+sudo nginx -t
+sudo nano /etc/nginx/nginx.conf
+sudo nginx -t
+cd /var/www/html
+ls
+cd wordpress/
+ls
+sudo nano /etc/nginx/nginx.conf
+sudo nginx -t
+sudo nano /etc/nginx/nginx.conf
+sudo nginx -t
+sudo systemctl restart nginx
+sudo systemctl restart php7.4-fpm
+systemctl status nginx
+sudo apt-get install python3-certbot-nginx -y
+sudo certbot --nginx -d laboratory.dev-datascientest.ip-ddns.com
+sudo nginx -t
+sudo systemctl restart nginx
+sudo systemctl restart php7.4-fpm
+systemctl status nginx
+sudo nano /etc/nginx/conf.d/wordpress.conf # create new file for virtual host configuration
+sudo nginx -t
+sudo systemctl restart nginx
+sudo systemctl restart php7.4-fpm
+systemctl status nginx
+sudo certbot --nginx -d laboratory.dev-datascientest.ip-ddns.com
+sudo nginx -t
+sudo systemctl reload nginx
+sudo rm -f /etc/nginx/nginx.conf #deletes from the nginx.conf file created by us
+sudo mv /etc/nginx/nginx.conf_backup nginx.conf # rename /etc/nginx/nginx.conf_backup to nginx.conf
+sudo nano /etc/nginx/conf.d/wordpress.conf # create new file for virtual host configuration
+sudo nginx -t
+php -v
+sudo nano /etc/php/7.4/fpm/php.ini
+sudo mariadb -u root -p
+ls
+sudo mariadb -u root -p
+cd /var/www/html
+sudo wget https://wordpress.org/latest.tar.gz
+sudo tar -zxvf latest.tar.gz
+sudo mv /var/www/html/wordpress/wp-config-sample.php /var/www/html/wordpress/wp-config.php
+sudo nano /var/www/html/wordpress/wp-config.php
+sudo chown -R www-data:www-data /var/www/html/wordpress
+sudo chmod -R 755 /var/www/html/wordpress
+sudo nano /etc/nginx/conf.d/wordpress.conf
+sudo nginx -t
+cd
+sudo nginx -t
+sudo rm -f /etc/nginx/nginx.conf #deletes from the nginx.conf file created by us
+sudo mv /etc/nginx/nginx.conf_backup nginx.conf # rename /etc/nginx/nginx.conf_backup to nginx.conf
+sudo nano /etc/nginx/conf.d/wordpress.conf 
+sudo nginx -t
+ls -l /etc/nginx/nginx.conf
+sudo nano /etc/nginx/nginx.conf
+sudo nginx -t
+sudo nano /etc/nginx/nginx.conf
+sudo nginx -t
+sudo nano /etc/nginx/nginx.conf
+sudo nginx -t
+sudo systemctl restart nginx
+sudo systemctl restart php7.4-fpm
+systemctl status nginx
+sudo nano /etc/nginx/nginx.conf
+sudo nginx -t
+sudo systemctl restart nginx
+sudo systemctl restart php7.4-fpm
+systemctl status nginx
+sudo nano /etc/nginx/nginx.conf
+sudo systemctl restart nginx
+sudo systemctl restart php7.4-fpm
+sudo nginx -t
+sudo nano /etc/nginx/nginx.conf
+sudo nginx -t
+sudo systemctl restart nginx
+sudo systemctl restart php7.4-fpm
+systemctl status nginx
+sudo apt-get install python3-certbot-nginx -y
+sudo certbot --nginx -d laboratory.dev-datascientest.ip-ddns.com
+nslookup laboratory.dev-datascientest.ip-ddns.com
+curl ifconfig.me
+sudo ufw allow 'Nginx Full'
+sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport 443 -j ACCEPT
+sudo nginx -t
+sudo systemctl restart nginx
+sudo certbot --nginx -d laboratory.dev-datascientest.ip-ddns.com
+sudo ufw allow 'Nginx Full'
+sudo certbot --nginx -d laboratory.dev-datascientest.ip-ddns.com
+sudo less /var/log/letsencrypt/letsencrypt.log
+curl ifconfig.me
+sudo apt install cron -y
+systemctl enable --now cron
+cd exercise1_FRANCIS/
+ls
+sudo nano /etc/nginx/sites-available/serveurngix.dev-datascientest.ip-ddns..com
+sudo ln -s /etc/nginx/sites-available/wp.example.com /etc/nginx/sites-enabled/
+sudo nginx -t
+sudo systemctl reload nginx
+cd /var/www/wordpress
+sudo cp wp-config-sample.php wp-config.php
+sudo nano wp-config.php
+curl -s https://api.wordpress.org/secret-key/1.1/salt/ 
+sudo nano wp-config.php
+sudo chown www-data:www-data /var/www/wordpress/wp-config.php
+sudo chmod 640 /var/www/wordpress/wp-config.php
+sudo apt -y install certbot python3-certbot-nginx
+sudo nano /etc/nginx/sites-available/serveurnginx.dev-datascientest.ip-ddns..com
+sudo nano /etc/nginx/sites-available/serveurnginx.dev-datascientest.ip-ddns.com
+sudo ln -s /etc/nginx/sites-available/sereurnginx.dev-datascientest.ip-ddns.com /etc/nginx/sites-enabled/
+sudo nginx -t
+sudo systemctl reload nginx
+systemctl status nginx
+cd /var/www/wordpress
+sudo cp wp-config-sample.php wp-config.php
+sudo nano wp-config.php
+sudo chown www-data:www-data /var/www/wordpress/wp-config.php
+sudo chmod 640 /var/www/wordpress/wp-config.php
+sudo certbot --nginx -d serveurnginx.dev-datascientest.ip-ddns.com --redirect -m cyriacus1210@gmail.com --agree-tos --no-eff-email
+mkdir exercise1_FRANCIS
+cd exercise1_FRANCIS/
+sudo apt -y install nginx
+sudo apt -y install php-fpm php-mysql php-xml php-zip php-mbstring php-curl php-gd php-intl php-soap php-bcmathsudo apt -y install php-fpm php-mysql php-xml php-zip php-mbstring php-curl php-gd php-intl php-soap php-bcmath
+php -v
+systemctl status php*-fpm
+sudo apt -y install mariadb-server
+sudo systemctl enable --now mariadb
+sudo mysql_secure_installation
+sudo mysql -u root -p
+sudo mkdir -p /var/www/wordpress
+cd /tmp
+curl -LO https://wordpress.org/latest.tar.gz
+tar -xzf latest.tar.gz
+sudo rsync -a /tmp/wordpress/ /var/www/wordpress/
+sudo chown -R www-data:www-data /var/www/wordpress
+sudo find /var/www/wordpress -type d -exec chmod 755 {} ;
+sudo find /var/www/wordpress -type f -exec chmod 644 {} ;
+ls
+sudo nano /etc/nginx/sites-available/sereurngix.dev-datascientest.ip-ddns.com
+exit
+sudo nano /etc/nginx/sites-available/sereurngix.dev-datascientest.ip-ddns.com
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+sudo ufw status
+sudo nginx -t
+sudo systemctl reload nginx
+sudo ufw status
+sudo ss -ltnp | grep ':80'
+curl -I http://serveurnginx.dev-datascientest.ip-ddns.com
+sudo mkdir -p /var/www/wordpress/.well-known/acme-challenge
+echo ok | sudo tee /var/www/wordpress/.well-known/acme-challenge/test
+curl -I http://serveurnginx.dev-datascientest.ip-ddns.com/.well-known/acme-challenge/tes
+sudo nano /etc/nginx/sites-available/sereurngix.dev-datascientest.ip-ddns.com
+sudo nginx -t
+sudo systemctl reload nginx
+sudo certbot --nginx -d serveurnginx.dev-datascientest.ip-ddns.com -m you@example.com --agree-tos --no-eff-email
+sudo certbot --nginx -d serveurnginx.dev-datascientest.ip-ddns.com -m cyriacus1210@gmail.com --agree-tos --no-eff-email
+sudo certbot certonly --webroot -w /var/www/wordpress -d serveurnginx.dev-datascientest.ip-ddns.com
+curl https://get.acme.sh | sh
+source ~/.bashrc
+~/.acme.sh/acme.sh --issue --dns dns_cloudns -d serveurnginx.dev-datascientest.ip-ddns.com
+~/.acme.sh/acme.sh --install-cert -d serveurnginx.dev-datascientest.ip-ddns.com
+~/.acme.sh/acme.sh --install-cert -d serveurnginx.dev-datascientest.ip-ddns.com 
+--key-file /etc/letsencrypt/live/serveurnginx.dev-datascientest.ip-ddns.com/privkey.pem 
+--fullchain-file /etc/letsencrypt/live/serveurnginx.dev-datascientest.ip-ddns.com/fullchain.pem 
+--reloadcmd "systemctl reload nginx"
+sudo ss -ltnp | egrep ':80|:443'
+sudo ufw status verbose
+curl -I http://serveurnginx.dev-datascientest.ip-ddns.com
+tail -n 100 /var/log/nginx/error.log
+ls -l /etc/nginx/
+sudo nano /etc/nginx/sites-available/sereurngix.dev-datascientest.ip-ddns.com
+sudo nginx -t
+sudo systemctl restart nginx
+ls -l /var/run/php/
+sudo chown www-data:www-data /var/run/php/php7.4-fpm.sock
+sudo nano /etc/php/7.4/fpm/pool.d/www.conf
+sudo systemctl restart php7.4-fpm
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+tail -f /var/log/nginx/error.log
+curl -I http://serveurnginx.dev-datascientest.ip-ddns.com
+curl -I http://laboratory.dev-datascientest.ip-ddns.com
+curl -I http://serveurnginx.dev-datascientest.ip-ddns.com
+sudo nano /etc/nginx/sites-available/sereurngix.dev-datascientest.ip-ddns.com
+ls -l /var/run/php/
+sudo nano /etc/php/7.4/fpm/pool.d/www.conf
+sudo systemctl restart php7.4-fpm
+sudo systemctl restart nginx
+sudo nginx -t
+tail -f /var/log/nginx/error.log
+curl -I http://laboratory.dev-datascientest.ip-ddns.com
+sudo chown www-data:www-data /var/run/php/php7.4-fpm.sock
+sudo chmod 660 /var/run/php/php7.4-fpm.sock
+sudo systemctl status php7.4-fpm
+sudo systemctl start php7.4-fpm
+sudo systemctl status php7.4-fpm
+sudo systemctl start php7.4-fpm
+sudo nano /etc/php/7.4/fpm/pool.d/www.conf
+sudo tail -f /var/log/php7.4-fpm.log
+sudo systemctl restart php7.4-fpm
+ls -l /var/run/php/
+find / -name "php7.4-fpm.sock" 2>/dev/null
+fastcgi_pass unix:/var/run/php/php7.4-fpm.sock;
+sudo systemctl restart php7.4-fpm
+sudo systemctl restart nginx
+sudo nginx -t
+curl -I http://laboratory.dev-datascientest.ip-ddns.com
+tail -f /var/log/nginx/error.log
+sudo systemctl status php7.4-fpm
+sudo systemctl start php7.4-fpm
+sudo systemctl status php7.4-fpm.service
+sudo journalctl -xe
+sudo php-fpm7.4 -t
+sudo nano /etc/php/7.4/fpm/pool.d/www.conf
+sudo php-fpm7.4 -t
+sudo apt update && sudo apt upgrade -y # we update the packages and the operating system
+sudo apt install nginx -y 
+sudo systemctl enable nginx # start the service on every system reboot
+sudo systemctl start nginx # start the service now
+sudo systemctl status nginx # c
+cd /etc/nginx #move to the nginx directory
+ls -larth #d
+cat nginx.conf
+sudo nano /etc/nginx/nginx.conf
+sudo mv nginx.conf nginx.conf.backup # rename the nginx.conf file to nginx.conf.backup
+sudo touch nginx.conf 
+sudo nano /etc/nginx/nginx.conf
+sudo nginx -t
+sudo systemctl restart nginx
+sudo nginx -s reload
+curl -i http://sereurnginx.dev-datascientest.ip-ddns.com
+sudo nano /etc/nginx/nginx.conf
+sudo nginx -t
+sudo nginx -s reload
+sudo systemctl restart nginx
+curl -i http://sereurnginx.dev-datascientest.ip-ddns.com
+sudo nano /etc/nginx/nginx.conf
+sudo nginx -t
+sudo systemctl restart nginx
+sudo nginx -s reload
+curl -i http://laboratory.dev-datascientest.ip-ddns.com
+sudo nginx -s reload
+sudo systemctl restart nginx
+curl -i http://laboratory.dev-datascientest.ip-ddns.com
+sudo nano /etc/nginx/nginx.conf
+sudo nginx -t
+sudo nano /etc/nginx/nginx.conf
+sudo nginx -t
+sudo nginx -s reload
+sudo systemctl restart nginx
+curl -i http://serveurnginx.dev-datascientest.ip-ddns.com
+sudo nano /etc/nginx/nginx.conf
+sudo nginx -t
+sudo nginx -s reload
+sudo systemctl restart nginx
+curl -i http://serveurnginx.dev-datascientest.ip-ddns.com
+curl -i http://laboratory.dev-datascientest.ip-ddns.com
+sudo systemctl restart nginx
+sudo nginx -s reload
+curl -i http://laboratory.dev-datascientest.ip-ddns.com
+curl -i http://lab.dev-datascientest.ip-ddns.com
+curl -i http://laboratory.dev-datascientest.ip-ddns.com

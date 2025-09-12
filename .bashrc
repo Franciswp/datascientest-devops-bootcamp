@@ -115,3 +115,4 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+. "/home/ubuntu/.acme.sh/acme.sh.env"
